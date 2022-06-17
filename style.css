@@ -88,13 +88,18 @@ input {
     background-color: rgb(245, 86, 86);
     background-image: url(images/bg-intro-mobile.png);
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    height: auto;
+    margin: auto;  
+    padding: auto; 
     }
 
     .main {
         display: flex;
         background-image: url(images/bg-intro-mobile.png);
         flex-direction: column; 
+        height: fit-content;
+        
        }
 
        .flex-top {
@@ -113,10 +118,13 @@ input {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin: auto;
-      padding: auto;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: auto;
     }
-
+    
     }
 
 
