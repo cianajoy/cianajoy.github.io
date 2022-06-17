@@ -82,13 +82,42 @@ input {
     border-radius: 4px;
 }
 
-@media (max-width:325px) {
-   .main {
-    display: flex;
+@media (max-width:375px) {
+
+    body {
+    background-color: rgb(245, 86, 86);
     background-image: url(images/bg-intro-mobile.png);
-    flex-direction: column;  
-   }
-}
+    display: flex;
+    flex-direction: column;    
+    }
+
+    .main {
+        display: flex;
+        background-image: url(images/bg-intro-mobile.png);
+        flex-direction: column; 
+       }
+
+       .flex-top {
+        display: flex;
+        padding: auto;
+        border: 1px;
+        background-color: navy;
+        border-radius: 07px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .flex-cont {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: auto;
+    }
+
+    }
 
 
 
