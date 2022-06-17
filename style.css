@@ -1,0 +1,86 @@
+. {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:375px) {
+    
+}
+
+main {
+    background-color: rgb(245, 86, 86);
+    background-image: url(images/bg-intro-desktop.png);
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.flex-top {
+    display: flex;
+    padding: auto;
+    border: 1px;
+    background-color: navy;
+    border-radius: 07px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    justify-content: center;
+    align-items: center;
+    border: 0 auto;
+    border-radius: 10px;
+   background-color: white;    
+}
+
+ .flex-container p {
+    font-size: small;
+    color: #ccc;
+}
+
+.flex-cont {
+    margin-right: 100px;
+}
+
+.flex-cont h1 {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: green; 
+    padding: 12px 57px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    justify-content: center; 
+    align-items: center;  
+}
+
+input {
+    padding: 12px 45px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
