@@ -81,16 +81,11 @@ input {
 }
 
 @media (max-width:375px) {
-   main {
-      background-color: rgb(245, 86, 86);
-      background-image: url(images/bg-intro-mobile.png);
-      margin: auto;
-      padding: 1em;
-      display: flex;
-      flex: wrap;
-      justify-content: center;
-      align-items: center;
-      height: 90vh;
-  }   
+   .main {
+    display: flex;
+    background-image: url(images/bg-intro-mobile.png);
+    flex-direction: column;  
+   }
+}
 
 
