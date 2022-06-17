@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 main {
     background-color: rgb(245, 86, 86);
     background-image: url(images/bg-intro-desktop.png);
@@ -27,6 +28,7 @@ main {
     align-items: center;
     margin-bottom: 20px;
 }
+
 
 .flex-container {
     display: flex;
@@ -87,5 +89,6 @@ input {
     flex-direction: column;  
    }
 }
+
 
 
